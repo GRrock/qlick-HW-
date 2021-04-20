@@ -1,0 +1,5 @@
+const initialProperties = {
+    qHyperCubeDef: {
+        qDimensions
+    }
+}
