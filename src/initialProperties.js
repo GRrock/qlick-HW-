@@ -1,5 +1,5 @@
 export default {
-    "qHyperCubeDrf": {
+    "qHyperCubeDef": {
         "qDimensions": [],
         "qMeasures": [],
         "qInitialDataFetch": [

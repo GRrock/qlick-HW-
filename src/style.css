@@ -1,15 +1,35 @@
-.hello {
+.container {
     width: 100%;
     height: 100%;
-    color: red;
 }
-/*
-.tooltip {
-    display: none;
-}
+
 svg {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
 }
-*/
+
+.tooltip {
+    position: absolute;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    height: max-content;
+    width: max-content;
+    color: white;
+    background-color: black;
+    opacity: .8;
+    border-radius: 10%;
+    visibility: hidden ;
+}
+
+.axis {
+    stroke: black;
+}
+.marker {
+    visibility: hidden;
+}
+.chartLine {
+    stroke: red;
+    stroke-width: 1.5;
+    fill: none;
+}

@@ -1,10 +1,17 @@
+import "@babel/polyfill";
+import "./style.css";
 import paint from './paint.js';
-//import template from './src/template.html';
-//import localCss from './src/style.css';
+import template from './template.html';
+import support from './support.json'
+import localCss from './style.css';
 import initialProperties from './initialProperties.js';
-//import definition from './defenition.js'
-console.log("index.js");
+import definition from './defenition.js'
+
 export default {
     paint,
-    initialProperties
+    initialProperties,
+    template,
+    definition,
+    support,
+    localCss
 }
